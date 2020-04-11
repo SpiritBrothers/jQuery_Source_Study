@@ -6,6 +6,8 @@ jquery源码学习总结
 
 https://jquery.com/
 
+https://jquery.com/download/
+
 https://learn.jquery.com/
 
 jQuery源码官网
