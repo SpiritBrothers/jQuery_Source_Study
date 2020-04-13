@@ -101,6 +101,8 @@
 
  **jQuery一共13个模块**，
 
+![艾伦2.1架构](https://github.com/SpiritBrothers/jQuery_Source_Study/blob/master/img/jquery-framework.jpg)
+
 从2.1版开始jQuery支持通过AMD模块划分，
 
 jQuery在最开始发布的1.0版本是很简单的，只有CSS选择符、事件处理和AJAX交互3大块。
