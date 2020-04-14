@@ -27,7 +27,21 @@ The second version helps you update code to run on jQuery 3.0 or higher, once yo
 ###  二、jQuery
 
 - 只是一个JavaScript库
-- jQuery的所有功能都可以通过JavaScript进行访问 
+  - 库和框架区别：最本质区别在于[**控制权**]( https://www.jianshu.com/p/60100985dd7f )
+    -  **“控制反转”，当你使用一个库，你会调用库中的代码，而当你使用一个框架，框架会调用你的代码** 
+  -  angular、backbone、vue就属于框架 
+  -  jQuery、React、underscore就是库 
+  -  **框架是有一套解决方案的** 
+  -  组件本质：封装。
+    - 一定程度上可以约等于模块化，调用者只需关注输入和输出，总思想就是分而治之、重复利用。低耦合；
+  - 组件解决资源整合问题、增强功能促进开发效率。提高可维护性，便于协同开发，每个模块都可以分拆为一个组件，例如异步请求组件，路由组件，各个视图组件。 
+  -  可重复使用并且可以和其他对象进行交互的对象；即Component，能复用的js代码其实跟插件差不多，区别可能就是插件专注于特定功能而组件更专注于复用吧。 
+  -   库：为解决某种特定需求的程序功能集合；即library，如[jquery](https://link.jianshu.com/?t=http://lib.csdn.net/base/jquery)，
+    - 常用于方便dom操作、解决浏览器兼容等问题。
+  -   插件：参与程序内部运行环节的一段或多段代码集合；
+    - 即Plugin，遵循一定规范写出来方便程序展示效果，拥有特定功能且方便调用。如轮播图和瀑布流插件， 
+  -  扩展：使用程序API扩展程序适用面的一段或多段代码集合；即Extension， 
+- jQuery的所有功能都可以通过JavaScript进行访问
 - The Write Less,Do More（写更少，做更多），无疑就是jQuery的核心理念 
 -  轻量级的js库 ，它兼容CSS3，还兼容各种浏览器（IE 6.0+, FF 1.5+, Safari 2.0+, Opera 9.0+），jQuery2.0及后续版本将不再支持IE6/7/8浏览器。
 - jQuery使用户能更方便地处理HTML（标准通用标记语言下的一个应用）、events、实现动画效果，并且方便地为网站提供AJAX交互 
