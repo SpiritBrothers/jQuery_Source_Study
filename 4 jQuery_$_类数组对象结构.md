@@ -55,6 +55,37 @@ $(document.getElementById('div')).html()
 
 
 
+#### 5、jQuery创建HTML元素
+
+```JavaScript
+// 方式1
+var link1 = $('<a>',{
+   text:"baidu",
+   href:"http://www.baidu.com",
+   target:"_blank",
+   title:"goto baidu" 
+});
+ 
+link1.appendTo('body');
+
+// 方式2
+var link2 = $('<a>baidu</a>').attr({
+   href:"http://www.baidu.com",
+   target:"_blank",
+   title:"goto baidu" 
+});
+ 
+link2.appendTo('body');
+
+// 方式3 
+var html = "<p>我是创建的dom元素</p>"
+$("#content").html(html)
+
+// ... inserAfter() | clone() | prepend() 等等 
+```
+
+
+
 ### 三、类数组对象结构
 
 
